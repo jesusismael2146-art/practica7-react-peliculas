@@ -1,0 +1,39 @@
+/* src/pages/MovieDetails.css */
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.movieImage {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.movieDetails {
+  text-align: center;
+  color: #333;
+}
+
+.movieDetails h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* El Media Query para pantallas más grandes */
+@media (min-width: 768px) {
+  .detailsContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .movieDetails {
+    text-align: left; /* Alinea el texto a la izquierda en PC */
+  }
+}
