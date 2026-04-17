@@ -1,0 +1,24 @@
+.movie-card {
+  text-align: center;
+}
+
+.movie-img {
+  width: 100%;
+  border-radius: 10px; /* Bordes redondeados chidos */
+  transition: transform 0.3s ease; /* Animación suave */
+}
+
+/* Efecto al pasar el mouse por encima */
+.movie-img:hover {
+  transform: scale(1.05); 
+}
+
+.movie-title {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.link-no-underline {
+  text-decoration: none; /* Quita la raya azul fea de los enlaces */
+}
