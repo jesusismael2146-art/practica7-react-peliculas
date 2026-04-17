@@ -1,0 +1,9 @@
+.container {
+  display: grid;
+  /* Esto hace la magia responsiva: tarjetas de mínimo 230px que se estiran si hay espacio */
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 2rem; /* Espacio entre tarjetas */
+  padding: 40px;
+  justify-content: center;
+  list-style: none; /* Quita los puntos de la lista */
+}
