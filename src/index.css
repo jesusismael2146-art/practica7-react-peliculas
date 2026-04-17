@@ -109,3 +109,23 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.udg {
+  display: flex;
+  flex-direction: column;      /* texto en columna */
+  justify-content: center;     /* centra vertical */
+  align-items: flex-start;     /* texto a la izquierda */
+  
+  padding: 20px 40px;
+  min-height: 200px;
+
+  color: white;
+  background-color: #111; /* por si no carga la imagen */
+
+  /* IMAGEN */
+  background-image: url("img/Escudo_UdeG.svg.png");
+  background-repeat: no-repeat;
+  background-position: right center; /* 👈 imagen a la derecha */
+  background-size: 250px; /* 👈 controla tamaño */
+}
+
