@@ -93,6 +93,8 @@ h2 {
 }
 p {
   margin: 0;
+  font-size: 25px;
+  color: #e5e4e7;
 }
 
 code,
@@ -120,12 +122,10 @@ code {
   min-height: 200px;
 
   color: white;
-  background-color: #111; /* por si no carga la imagen */
+  background-color: #111;
 
-  /* IMAGEN */
   background-image: url("img/Escudo_UdeG.svg.png");
   background-repeat: no-repeat;
-  background-position: right center; /* 👈 imagen a la derecha */
-  background-size: 250px; /* 👈 controla tamaño */
+  background-position: right center; 
+  background-size: 250px; 
 }
-

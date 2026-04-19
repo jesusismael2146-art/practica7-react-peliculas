@@ -1,16 +1,75 @@
-# React + Vite
+# Práctica 7 - App de Películas con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Integrantes
+- Magaña Mojica Jesus Ismael
+- Santiago Covarrubias Ivan Raul
 
-Currently, two official plugins are available:
+## Objetivo 
+Desarrollar una aplicación web en React usando Vite como entorno de desarrollo, que consuma información de una API de películas, muestre un listado y el detalle de cada película, y que además sea trabajada colaborativamente mediante GitHub y publicada en Netlify.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías usadas
+- React
+- Vite
+- React Router DOM
+- CSS
+- GitHub
+- Netlify
 
-## React Compiler
+## Estructura general del proyecto
+practica7-react-peliculas/
+├── public/
+│   ├── _redirects
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── assets/
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── components/
+│   │   ├── MovieCard.css
+│   │   ├── MovieCard.jsx
+│   │   ├── MovieGrid.css
+│   │   └── MovieGrid.jsx
+│   ├── img/
+│   │   └── Escudo_UdeG.svg.png
+│   ├── pages/
+│   │   ├── LandingPage.jsx
+│   │   ├── MovieDetails.css
+│   │   └── MovieDetails.jsx
+│   ├── routers/
+│   │   └── AppRouter.jsx
+│   ├── services/
+│   │   └── httpClient.js
+│   ├── utils/
+│   │   └── getMovieImg.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── rutas_proyecto.txt
+└── vite.config.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instalacion y ejecucion local 
+npm install
+git clone https://github.com/jesusismael2146-art/practica7-react-peliculas
+npm run dev
 
-## Expanding the ESLint configuration
+## API utilizada
+API de peliculas de la pagina de TMBD
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Descripcion de funcionamiento
+Aplicación web desarrollada con React y Vite que consume una API de
+películas y muestra un listado y el detalle de cada película.
+## Despliegue
+
+GitHub: https://github.com/jesusismael2146-art/practica7-react-peliculas
+
+Netlify: 
+
