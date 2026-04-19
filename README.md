@@ -69,8 +69,8 @@ Aplicación web desarrollada con React y Vite que consume una API de
 películas y muestra un listado y el detalle de cada película.
 
 ## Despliegue
-GitHub: https://github.com/jesusismael2146-art/practica7-react-peliculas
-Netlify: https://practica7-react-peliculas.netlify.app/
+- GitHub: https://github.com/jesusismael2146-art/practica7-react-peliculas
+- Netlify: https://practica7-react-peliculas.netlify.app/
 
 ## Conclusiones
 - Jesus Magaña: Un proyecto que puso a prueba mis habilidades a prueba, muchas cosas nuevas que nunca habia visto y tuve que aprender desde 0, todo nos servira para un futuro cercano, ademas que este proyecto nos quedo muy genial a pesar de los retos enfrentados y desconocimientos en casi todo lo utilizado
