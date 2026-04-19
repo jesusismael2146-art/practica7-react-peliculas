@@ -71,5 +71,5 @@ películas y muestra un listado y el detalle de cada película.
 
 GitHub: https://github.com/jesusismael2146-art/practica7-react-peliculas
 
-Netlify: 
+Netlify: https://practica7-react-peliculas.netlify.app/
 
